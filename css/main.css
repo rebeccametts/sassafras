@@ -128,7 +128,7 @@ a:hover, a:focus {
     position: absolute;
     left: 37%;
     top: 0%;
-    background-color: #F9F9F9;
+    background-color: #F8F8F4;
     z-index: 9999;
     
     height: 100%;
@@ -330,7 +330,7 @@ h5 {
     position: absolute;
     left: 0%;
     top: 0%;
-    background-color: #F9F9F9;
+    background-color: #F8F8F4;
     z-index: 9999;
     
     height: 100%;
@@ -347,8 +347,8 @@ h5 {
 	}	
 	
 	.nav ul {
-		width: 200px;
-		padding: 5px 0;
+		width: 100%;
+		padding: 5px 25px 5px 25px;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -361,6 +361,7 @@ h5 {
 	.nav li {
 		display: none; /* hide all <li> items */
 		margin: 0;
+		text-align: center;
 	}
 	
 	#nodisplay_mobile {
